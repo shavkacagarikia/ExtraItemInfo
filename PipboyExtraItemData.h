@@ -211,20 +211,7 @@ public:
 							auto * pWeapon = (TESObjectWEAP::InstanceData*)Runtime_DynamicCast(neededInst, RTTI_TBO_InstanceData, RTTI_TESObjectWEAP__InstanceData);
 
 							if (pWeapon) {
-								UInt64	unk18 = pWeapon->unk18;
-								UInt64	unk20 = pWeapon->unk20;
-								UInt64	unk50 = pWeapon->unk50;
-								float	unk20a = pWeapon->firingData->unk00;
-								float	unk18a = pWeapon->firingData->unk18;
-								float	unk1c = pWeapon->firingData->unk1C;
-								UInt32 unk28 = pWeapon->firingData->unk28;
-								float	unkC0 = pWeapon->unkC0;
-								float	unkD8 = pWeapon->unkD8;
-								float	unkEC = pWeapon->unkEC;
-								UInt32	unk100 = pWeapon->unk100;
-								UInt32	unk114 = pWeapon->unk114;
-								UInt32	unk118 = pWeapon->unk118;
-								UInt32	unk11C = pWeapon->unk11C;
+								
 								
 
 								if (IsCapacityVisible) {
